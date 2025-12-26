@@ -1,5 +1,9 @@
 <img src="assets/banner.png" alt="Banner"/>
 
+---
+<a href="https://gitroll.io/profile/utyAagthmRUOsbCSMplWveqwYlai1" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/utyAagthmRUOsbCSMplWveqwYlai1?theme=light" alt="GitRoll Profile Badge"/></a>
+---
+
 # 👋 Hi, I'm Florian-Victor
 
 🎯 **Full-stack developer in the making** | Autodidact | Tech enthusiast  
