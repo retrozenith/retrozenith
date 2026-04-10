@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "retrozenith",
+  "compatibility_date": "2026-04-10",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "Profile-Picture"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
