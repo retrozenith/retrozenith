@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Florian-Victor (retrozenith) - Full-Stack Developer & DevOps Enthusiast Portfolio">
+  <title>Florian-Victor 👋 | retrozenith</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
+    rel="stylesheet">
+  <script type="module" src="/main.js"></script>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <!-- Submarine & Light Beam -->
+  <div id="submarine-wrapper" class="submarine-wrapper">
+    <div class="submarine-light"></div>
+    <svg class="submarine-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60">
+      <path d="M 45 25 L 45 10 L 55 10 L 55 15 L 50 15 L 50 25 Z" fill="#ffffff" opacity="0.8"/>
+      <rect x="25" y="25" width="55" height="20" rx="10" fill="#ffffff" opacity="0.9"/>
+      <path d="M 25 30 L 15 32 L 15 38 L 25 40 Z" fill="#ffffff" opacity="0.8"/>
+      <path d="M 10 25 L 15 35 L 10 45" stroke="#ffffff" stroke-width="3" fill="none" class="propeller"/>
+      <circle cx="65" cy="35" r="4" fill="#050505"/>
+    </svg>
+  </div>
+
+  <!-- Background Decorators -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="glass-nav">
+    <div class="container nav-content">
+      <a href="#" class="logo flex items-center" style="display:flex; align-items:center;">
+        <img src="/icon.svg" alt="Profile" style="width:36px; height:36px; border-radius:50%; margin-right:12px;" />
+         retro<span>zenith</span>
+      </a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/retrozenith" target="_blank" class="nav-github" title="GitHub Profile">
+          <svg viewBox="0 0 24 24" class="icon" fill="currentColor" style="width: 18px; height: 18px; vertical-align: text-bottom; margin-right: 4px;">
+            <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+          </svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      
+      <!-- Bubbles Background -->
+      <div class="bubbles">
+        <div class="bubble outline"></div>
+        <div class="bubble filled"></div>
+        <div class="bubble outline"></div>
+        <div class="bubble filled"></div>
+        <div class="bubble outline"></div>
+        <div class="bubble filled"></div>
+        <div class="bubble outline"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-text fade-in-up">
+          <img src="/icon.svg" alt="Avatar" style="width:120px; height:120px; border-radius:50%; margin-bottom:1.5rem; box-shadow: 0 4px 20px rgba(255,255,255,0.1);" />
+          <h1>Hi, I'm <span class="gradient-text">Florian-Victor</span><span class="wave">👋</span></h1>
+          <h2 class="typing-container">
+            <span id="typing-text"></span><span class="cursor">|</span>
+          </h2>
+          <p class="subtitle">
+            Based in Bucharest, Romania 🇷🇴<br />
+            I build clean, fast, and purposeful web experiences — from polished frontends to self-hosted infrastructure.
+            I'm especially into blending software with real ops: reverse proxies, SSO, automation, the works.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">About <span class="gradient-text">Me</span></h2>
+        <div class="about-grid">
+          <div class="glass-card about-card fade-in-left">
+            <div class="icon-wrapper">🚀</div>
+            <h3>My Mission</h3>
+            <p>Passion for blending full-stack software with real operations. Believer that owning your stack beats
+              renting someone else's.</p>
+          </div>
+          <div class="glass-card about-card fade-in-up delay-1">
+            <div class="icon-wrapper">⚙️</div>
+            <h3>DevOps & Infrastructure</h3>
+            <p>Self-hosting a growing stack — DNS adblockers, backups, centralized SSO, and reverse proxy administration
+              using Traefik and Authentik.</p>
+          </div>
+          <div class="glass-card about-card fade-in-right delay-2">
+            <div class="icon-wrapper">🌌</div>
+            <h3>The Vision</h3>
+            <p>Currently working toward my own hosting empire — one service at a time. Deep into infrastructure
+              automation and security hardening.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Tech <span class="gradient-text">Stack</span></h2>
+
+        <div class="skills-container fade-in-up">
+          <!-- Frontend -->
+          <div class="skill-category glass-panel">
+            <h3>🎨 Frontend</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5 / CSS3</span>
+              <span class="skill-tag">JavaScript (ES6+)</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">Astro</span>
+              <span class="skill-tag">Tailwind</span>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill-category glass-panel">
+            <h3>⚡ Backend & Cloud</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Redis</span>
+              <span class="skill-tag">Firebase Auth</span>
+              <span class="skill-tag">Google Cloud</span>
+              <span class="skill-tag">Linode</span>
+            </div>
+          </div>
+
+          <!-- DevOps -->
+          <div class="skill-category glass-panel">
+            <h3>🛠️ DevOps & Hosting</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Nginx</span>
+              <span class="skill-tag">Traefik</span>
+              <span class="skill-tag">Authentik SSO</span>
+              <span class="skill-tag">Linux Servers</span>
+              <span class="skill-tag">Infrastructure Automation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Featured <span class="gradient-text">Projects</span></h2>
+        <div class="projects-grid">
+          <div class="glass-card project-card hover-lift fade-in-up">
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-badge">Full-Stack / Automation</span>
+              </div>
+              <h3>📝 PDF Referee Report Generator</h3>
+              <p>An overarching tool transforming report generation processes. Built a robust backend pipeline with
+                Python that integrates into a blazing-fast AstrojS frontend for pristine UX.</p>
+              <div class="project-tech">
+                <span>Python</span><span>Astro</span><span>Automation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card project-card hover-lift fade-in-up delay-1">
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-badge">Infrastructure</span>
+              </div>
+              <h3>☁️ Self-Hosted Ecosystems</h3>
+              <p>Architected and deployed a suite of secure, self-hosted services including automated backup systems,
+                DNS-based adblockers, and centralized SSO using Authentik and Traefik.</p>
+              <div class="project-tech">
+                <span>Docker</span><span>Traefik</span><span>Authentik</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container contact-container">
+        <div class="glass-card contact-card fade-in">
+          <h2>Let's build something <span class="gradient-text">amazing</span></h2>
+          <p>Whether you're looking for a dedicated full-stack developer or need help architecting your next
+            infrastructure setup, I'm always open to new opportunities.</p>
+          <div class="contact-links">
+            <a href="https://github.com/retrozenith" target="_blank" class="contact-btn github-btn">
+              <svg viewBox="0 0 24 24" class="icon" fill="currentColor">
+                <path
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z">
+                </path>
+              </svg>
+              GitHub Profile
+            </a>
+            <a href="https://gitroll.io/profile/utyAagthmRUOsbCSMplWveqwYlai1" target="_blank"
+              class="contact-btn badge-btn">
+              <img src="https://gitroll.io/api/badges/profiles/v1/utyAagthmRUOsbCSMplWveqwYlai1?theme=dark"
+                alt="GitRoll Profile Badge" style="height: 100%;width: 100%;" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Florian-Victor (retrozenith)</p>
+      <p class="footer-note">Designed with ❤️ & Vanilla CSS</p>
+    </div>
+  </footer>
+</body>
+
+</html>
