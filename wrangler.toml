@@ -1,0 +1,3 @@
+name = "retrozenith-portfolio"
+compatibility_date = "2026-04-10"
+pages_build_output_dir = "web/dist"
